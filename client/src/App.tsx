@@ -9,13 +9,13 @@ function App() {
 
 
   return (
-    <>
+    <> <div className='min-h-screen bg-stone-700'>
       <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/game' element={<Game />} />
 
       </Routes>
-      <button className='bg-red-200'>JOIN ROOM</button>
+    </div>
     </>
   )
 }
